@@ -60,7 +60,7 @@ max_t <- avg %>%  arrange(desc(avg_num_steps)) %>% top_n(n=1)
 max_t 
 ```
 
-The time interval with maximum number of steps is `r max_t$interval` (In the morning).
+The time interval with maximum number of steps is 835 (In the morning).
 
 ### Imputing missing values
 
